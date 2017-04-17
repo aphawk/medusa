@@ -39,7 +39,6 @@ Once the image it built, it's cached.  To delete the image and build a new one:
 
 1. `capstan rmi medusa; capstan build`
 
-
 ## Links
 * [Other examples](https://github.com/pedestal/samples)
 
