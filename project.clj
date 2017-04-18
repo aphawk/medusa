@@ -20,6 +20,7 @@
   :resource-paths ["config", "resources"]
   ;; If you use HTTP/2 or ALPN, use the java-agent to pull in the correct alpn-boot dependency
   ;:java-agents [[org.mortbay.jetty.alpn/jetty-alpn-agent "2.0.5"]]
+
   :profiles {:dev {:aliases {"run-dev" ["trampoline" "run" "-m" "medusa.server/run-dev"]}
                    :dependencies [[io.pedestal/pedestal.service-tools "0.5.2"]]}
              :uberjar {:aot [medusa.server]}}
